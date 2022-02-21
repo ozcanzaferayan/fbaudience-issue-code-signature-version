@@ -16,9 +16,9 @@
 		1582785E27B64D6300D9F9EF /* TestFacebookSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1582785D27B64D6300D9F9EF /* TestFacebookSDKTests.swift */; };
 		1582786827B64D6300D9F9EF /* TestFacebookSDKUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1582786727B64D6300D9F9EF /* TestFacebookSDKUITests.swift */; };
 		1582786A27B64D6300D9F9EF /* TestFacebookSDKUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1582786927B64D6300D9F9EF /* TestFacebookSDKUITestsLaunchTests.swift */; };
-		1582788327B6571400D9F9EF /* licenses in Resources */ = {isa = PBXBuildFile; fileRef = 1582788027B6571400D9F9EF /* licenses */; };
-		1582788727B6574700D9F9EF /* FBAudienceNetwork.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1582787F27B6571400D9F9EF /* FBAudienceNetwork.xcframework */; };
-		1582788827B6574700D9F9EF /* FBAudienceNetwork.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1582787F27B6571400D9F9EF /* FBAudienceNetwork.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		15F7354D27C3CE9200067884 /* licenses in Resources */ = {isa = PBXBuildFile; fileRef = 15F7354A27C3CE9200067884 /* licenses */; };
+		15F7355127C3D0D600067884 /* FBAudienceNetwork.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15F7354927C3CE9200067884 /* FBAudienceNetwork.xcframework */; };
+		15F7355227C3D0D600067884 /* FBAudienceNetwork.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 15F7354927C3CE9200067884 /* FBAudienceNetwork.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,13 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		1582788927B6574700D9F9EF /* Embed Frameworks */ = {
+		15F7355327C3D0D600067884 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				1582788827B6574700D9F9EF /* FBAudienceNetwork.xcframework in Embed Frameworks */,
+				15F7355227C3D0D600067884 /* FBAudienceNetwork.xcframework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -67,9 +67,10 @@
 		1582786727B64D6300D9F9EF /* TestFacebookSDKUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFacebookSDKUITests.swift; sourceTree = "<group>"; };
 		1582786927B64D6300D9F9EF /* TestFacebookSDKUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestFacebookSDKUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1582787727B655DC00D9F9EF /* FBAudienceNetwork.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FBAudienceNetwork.xcframework; path = "../../Downloads/FBAudienceNetwork-6-2/Static/FBAudienceNetwork.xcframework"; sourceTree = "<group>"; };
-		1582787D27B6571400D9F9EF /* FBAudienceNetwork.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FBAudienceNetwork.xcframework; sourceTree = "<group>"; };
-		1582787F27B6571400D9F9EF /* FBAudienceNetwork.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FBAudienceNetwork.xcframework; sourceTree = "<group>"; };
-		1582788027B6571400D9F9EF /* licenses */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = licenses; sourceTree = "<group>"; };
+		15F7354127C3CE7300067884 /* FBAudienceNetwork.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = FBAudienceNetwork.xcframework; path = "TestFacebookSDK/FBAudienceNetwork-6-9/Static/FBAudienceNetwork.xcframework"; sourceTree = "<group>"; };
+		15F7354727C3CE9200067884 /* FBAudienceNetwork.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FBAudienceNetwork.xcframework; sourceTree = "<group>"; };
+		15F7354927C3CE9200067884 /* FBAudienceNetwork.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = FBAudienceNetwork.xcframework; sourceTree = "<group>"; };
+		15F7354A27C3CE9200067884 /* licenses */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = licenses; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1582788727B6574700D9F9EF /* FBAudienceNetwork.xcframework in Frameworks */,
+				15F7355127C3D0D600067884 /* FBAudienceNetwork.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,7 +123,7 @@
 		1582784527B64D6200D9F9EF /* TestFacebookSDK */ = {
 			isa = PBXGroup;
 			children = (
-				1582787B27B6571400D9F9EF /* FBAudienceNetwork-6-2 */,
+				15F7354527C3CE9200067884 /* FBAudienceNetwork-6-9 */,
 				1582784627B64D6200D9F9EF /* AppDelegate.swift */,
 				1582784827B64D6200D9F9EF /* SceneDelegate.swift */,
 				1582784A27B64D6200D9F9EF /* ViewController.swift */,
@@ -154,33 +155,34 @@
 		1582787627B655DC00D9F9EF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				15F7354127C3CE7300067884 /* FBAudienceNetwork.xcframework */,
 				1582787727B655DC00D9F9EF /* FBAudienceNetwork.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1582787B27B6571400D9F9EF /* FBAudienceNetwork-6-2 */ = {
+		15F7354527C3CE9200067884 /* FBAudienceNetwork-6-9 */ = {
 			isa = PBXGroup;
 			children = (
-				1582787C27B6571400D9F9EF /* Dynamic */,
-				1582787E27B6571400D9F9EF /* Static */,
+				15F7354627C3CE9200067884 /* Dynamic */,
+				15F7354827C3CE9200067884 /* Static */,
 			);
-			path = "FBAudienceNetwork-6-2";
+			path = "FBAudienceNetwork-6-9";
 			sourceTree = "<group>";
 		};
-		1582787C27B6571400D9F9EF /* Dynamic */ = {
+		15F7354627C3CE9200067884 /* Dynamic */ = {
 			isa = PBXGroup;
 			children = (
-				1582787D27B6571400D9F9EF /* FBAudienceNetwork.xcframework */,
+				15F7354727C3CE9200067884 /* FBAudienceNetwork.xcframework */,
 			);
 			path = Dynamic;
 			sourceTree = "<group>";
 		};
-		1582787E27B6571400D9F9EF /* Static */ = {
+		15F7354827C3CE9200067884 /* Static */ = {
 			isa = PBXGroup;
 			children = (
-				1582787F27B6571400D9F9EF /* FBAudienceNetwork.xcframework */,
-				1582788027B6571400D9F9EF /* licenses */,
+				15F7354927C3CE9200067884 /* FBAudienceNetwork.xcframework */,
+				15F7354A27C3CE9200067884 /* licenses */,
 			);
 			path = Static;
 			sourceTree = "<group>";
@@ -195,7 +197,7 @@
 				1582783F27B64D6200D9F9EF /* Sources */,
 				1582784027B64D6200D9F9EF /* Frameworks */,
 				1582784127B64D6200D9F9EF /* Resources */,
-				1582788927B6574700D9F9EF /* Embed Frameworks */,
+				15F7355327C3D0D600067884 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -292,7 +294,7 @@
 			files = (
 				1582785327B64D6300D9F9EF /* LaunchScreen.storyboard in Resources */,
 				1582785027B64D6300D9F9EF /* Assets.xcassets in Resources */,
-				1582788327B6571400D9F9EF /* licenses in Resources */,
+				15F7354D27C3CE9200067884 /* licenses in Resources */,
 				1582784E27B64D6200D9F9EF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
